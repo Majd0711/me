@@ -1,0 +1,137 @@
+* {
+    margin: 5;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(86, 99, 112);
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px ;
+    background: rgb(118, 74, 162);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 99999;
+}
+.navbar .logo {
+    font-size: larger;
+    font-weight: 600;
+}
+.navbar ul{
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+.navbar ul li a{
+    font-size: large;
+    font-weight: 300;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a{
+    color: rgb(241, 13, 13);
+}
+.Home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 10% 0;
+    color: #fff;
+}
+.home-info h1 {
+    font-size: 55px;
+}
+.home-info h2{
+    font-size: 30px;
+    margin-top:-15px ;
+}
+.home-info p{
+    font-size: 15px;
+    margin: 10px 0 20px;
+}
+.home-info .btn-1{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: red;
+    border: 2px solid rgb(209, 31, 31);
+    border-radius: 30px;
+    box-shadow: 0 0 8px;
+    font-size: 15px;
+    color: #1f242d;
+    font-weight: 500;
+    transition:.4s;
+}
+.btn:hover{
+    background: transparent;
+    color: red;
+    box-shadow: none;
+}
+.home-img .img-box{
+    width: 32vw;
+    height: 32vw;
+
+}
+.home-img .img-box .img-item{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.home-img .img-box .img-item img{
+    position: relative;
+    display: block;
+}
+footer{
+    background:rgb(118, 74, 162) ;
+}
+.footer-1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    padding: 50px;
+    margin: 0;
+}
+.about-info h1{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:400%;
+    margin-bottom: 10px;
+}
+.about-info h2{
+    color: red;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 150%;
+    margin-top:-5px ;
+}
+.company{
+    color: #fff;
+    text-align: center;
+    list-style: none;
+    
+}
+.about-info p {
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
