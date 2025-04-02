@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(86, 99, 112);
+    background-color: white;
 }
 a{
-    color: #fff;
+    color: #fcf9f9;
     text-decoration: none;
 }
 .navbar{
@@ -47,7 +47,7 @@ a{
     align-items: center;
     height: 100vh;
     padding: 60px 10% 0;
-    color: #fff;
+    color: #0a0a0a;
 }
 .home-info h1 {
     font-size: 55px;
@@ -76,6 +76,17 @@ a{
     font-weight: 500;
     transition:.4s;
 }
+.btn-2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows:60;
+    justify-items: left;
+    width: 50px;
+    height: 70px;
+    justify-content: left;
+
+    
+}
 .btn:hover{
     background: transparent;
     color: red;
@@ -99,7 +110,7 @@ footer{
     background:rgb(118, 74, 162) ;
 }
 .footer-1{
-    color: #fff;
+    color:white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +124,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size:400%;
+    font-size:350%;
     margin-bottom: 10px;
 }
 .about-info h2{
@@ -125,13 +136,67 @@ footer{
     margin-top:-5px ;
 }
 .company{
-    color: #fff;
+    color: #070707;
     text-align: center;
     list-style: none;
     
 }
 .about-info p {
-    color: #fff;
+    color: #0e0d0d;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.container{
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size:180%;
+    margin-bottom: 15px;
+}
+.contrainer3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.card{
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0,0,0,2);
+    margin: 20px;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content{
+    padding: 16px;
+}
+.card-content h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.card-content p{
+    font-size: 15px;
+    line-height: 1.3;
+}
+.card-content .card1 {
+    color:#fff;
+    display: inline-block;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-size: large;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: x-large;
+    margin-bottom: -80px;
 }
